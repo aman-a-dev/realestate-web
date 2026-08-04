@@ -1,0 +1,2 @@
+app/map/page.tsx(989,13): error TS2322: Type '(event: LeafletEvent) => void' is not assignable to type '() => void'.
+  Target signature provides too few arguments. Expected 1 or more, but got 0.
