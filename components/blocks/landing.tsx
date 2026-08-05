@@ -364,7 +364,7 @@ const StatItem = memo(function StatItem({
       className="flex flex-col items-center gap-1 text-center sm:items-start sm:text-left"
     >
       <span
-        className={`${lastoriaFont.className} text-3xl font-medium text-forest sm:text-4xl`}
+        className={`${melodramaFont.className} text-3xl font-medium text-forest sm:text-4xl`}
       >
         {display}
         {suffix}
