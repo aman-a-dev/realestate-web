@@ -1,6 +1,6 @@
 // brand
 export const BRAND = {
-  name: "Crown Properties PLC",
+  name: "Yotek Properties",
   tagline: "Where Vision Meets Address",
   founded: 2015,
   location: "Ethiopia Addis Ababa",
