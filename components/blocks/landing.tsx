@@ -267,13 +267,6 @@ export default function Hero() {
   // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
   return (
     <>
-      {/* Page scroll indicator */}
-      <motion.div
-        className="fixed inset-x-0 top-0 z-[60] h-[2px] origin-left bg-forest"
-        style={{ scaleX: pageProgress }}
-        aria-hidden="true"
-      />
-
       <main className="relative w-full">
         {/* Ambient glow */}
         <motion.div
@@ -286,7 +279,7 @@ export default function Hero() {
         {/* ============ CANVAS SECTION ============ */}
         <section
           ref={containerRef}
-          className="relative"
+          className="relative mt-10"
           style={{
             height: `${TOTAL_FRAMES * 1.5}vh`,
             backgroundColor: CANVAS_BG,
